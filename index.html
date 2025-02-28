@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Index Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#" onclick="loadPage('first-index-content.html')">Home</a>
+    <a href="#" onclick="loadPage('second-index.html')">Go to Second Index</a>
+    <a href="#" onclick="loadPage('third-index.html')">Go to Third Index</a>
+  </nav>
+
+  <!-- Content Area -->
+  <div id="content">
+    <h1>Welcome to the First Index Page</h1>
+    <p>Click the links above to dynamically load content from the second or third page without reloading the page.</p>
+  </div>
+
+  <!-- Link to the external JS file -->
+  <script src="script.js"></script>
+</body>
+</html>
